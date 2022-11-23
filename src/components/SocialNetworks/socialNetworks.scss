@@ -1,0 +1,17 @@
+#container-socialNetworks {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  .socialNetworks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    i {
+      font-size: 15px;
+    }
+  }
+}

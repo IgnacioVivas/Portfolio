@@ -1,0 +1,39 @@
+.navBar-container {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 55px;
+  .navBar-wrapper {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .icon-container {
+      h5 {
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 50px;
+        #point {
+          color: #40cfff;
+          font-size: 80px;
+          font-weight: 400;
+        }
+      }
+    }
+    .nav-bar {
+      display: flex;
+      align-items: center;
+      gap: 42px;
+      margin: 0;
+      li {
+        color: #1d1d1d;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: 0px;
+        text-transform: none;
+      }
+    }
+  }
+}

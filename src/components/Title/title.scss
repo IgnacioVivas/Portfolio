@@ -1,0 +1,26 @@
+#container-title {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  #row-title {
+    gap: 20px;
+    #main-title {
+      color: #40cfff;
+      font-size: 100px;
+      line-height: 105px;
+      font-style: normal;
+      font-weight: 400;
+      letter-spacing: 0px;
+      text-transform: none;
+    }
+    #secondary-title {
+      color: #282828;
+      font-size: 33px;
+      line-height: 44px;
+      font-style: normal;
+      font-weight: 300;
+      letter-spacing: 0px;
+      text-transform: none;
+    }
+  }
+}
