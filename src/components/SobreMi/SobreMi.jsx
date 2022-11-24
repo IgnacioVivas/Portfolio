@@ -17,14 +17,14 @@ function SobreMi() {
           </p>
         </Col>
         <Col id='container-progressBar'>
-          <ProgressBar bgcolor='#40cfff' progress='30' technology={'Scss'} />
-          <ProgressBar bgcolor='#40cfff' progress='30' technology={'Styled Components'} />
-          <ProgressBar bgcolor='#40cfff' progress='30' technology={'JavaScript'} />
-          <ProgressBar bgcolor='#40cfff' progress='30' technology={'React Js'} />
-          <ProgressBar bgcolor='#40cfff' progress='30' technology={'Node Js'} />
-          <ProgressBar bgcolor='#40cfff' progress='30' technology={'Express Js'} />
-          <ProgressBar bgcolor='#40cfff' progress='30' technology={'PostgreSql'} />
-          <ProgressBar bgcolor='#40cfff' progress='30' technology={'Sequelize'} />
+          <ProgressBar bgcolor='#40cfff' progress='80' technology={'Scss'} />
+          <ProgressBar bgcolor='#40cfff' progress='60' technology={'Styled Components'} />
+          <ProgressBar bgcolor='#40cfff' progress='80' technology={'JavaScript'} />
+          <ProgressBar bgcolor='#40cfff' progress='80' technology={'React Js'} />
+          <ProgressBar bgcolor='#40cfff' progress='70' technology={'Node Js'} />
+          <ProgressBar bgcolor='#40cfff' progress='70' technology={'Express Js'} />
+          <ProgressBar bgcolor='#40cfff' progress='60' technology={'PostgreSql'} />
+          <ProgressBar bgcolor='#40cfff' progress='65' technology={'Sequelize'} />
         </Col>
       </Row>
     </Container>
