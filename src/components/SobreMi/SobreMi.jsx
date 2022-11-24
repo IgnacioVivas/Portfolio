@@ -4,7 +4,7 @@ import ProgressBar from '../ProgressBar/ProgressBar';
 
 function SobreMi() {
   return (
-    <Container id='container-sobreMi'>
+    <Container className='container-sobreMi' id='sobreMi'>
       <Row>
         <Col>
           <p id='sobreMi'>

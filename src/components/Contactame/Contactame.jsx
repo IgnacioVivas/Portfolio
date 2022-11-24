@@ -5,7 +5,7 @@ import './contactame.scss';
 
 function Contactame() {
   return (
-    <Container id='container-contactame'>
+    <Container className='container-contactame' id='contacto'>
       <Row id='row-contactame'>
         <Col id='col-contactame'>
           <h2 id='title-contactame'>Contactame</h2>

@@ -1,7 +1,6 @@
-import React from 'react';
-import { Container, Row } from 'react-bootstrap';
-import SocialNetworks from '../SocialNetworks/SocialNetworks';
+import { Link, animateScroll as scroll } from 'react-scroll';
 import './navBar.scss';
+import SocialNetworks from '../SocialNetworks/SocialNetworks';
 
 function NavBar() {
   return (
@@ -13,10 +12,54 @@ function NavBar() {
           </h5>
         </div>
         <ul className='nav-bar'>
-          <li>Inicio</li>
-          <li>Sobre Mí</li>
-          <li>Portfolio</li>
-          <li>Contactame</li>
+          <li>
+            <Link
+              activeClass='active'
+              to='inicio'
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Inicio
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass='active'
+              to='sobreMi'
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Sobre Mí
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass='active'
+              to='portfolio'
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Portfolio
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass='active'
+              to='contacto'
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Contactame
+            </Link>
+          </li>
           <SocialNetworks />
         </ul>
       </div>

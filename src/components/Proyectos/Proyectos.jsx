@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 function Proyectos() {
   return (
-    <Container id='container-proyectos'>
+    <Container className='container-proyectos' id='portfolio'>
       <Row id='row-proyectos-title'>
         <h2>Mis mejores trabajos</h2>
         <h3>Aquí hay una selección de mis mejores proyectos.</h3>
