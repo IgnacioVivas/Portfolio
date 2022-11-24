@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import SobreMi from './components/SobreMi/SobreMi';
 import Proyectos from './components/Proyectos/Proyectos';
 import Contactame from './components/Contactame/Contactame';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <SobreMi />
       <Proyectos />
       <Contactame />
+      <Footer />
     </>
   );
 }

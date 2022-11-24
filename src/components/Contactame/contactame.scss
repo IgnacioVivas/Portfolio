@@ -2,6 +2,9 @@
   padding: 150px 0;
   #row-contactame {
     #col-contactame {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
       #title-contactame {
         color: #40cfff;
         font-size: 70px;
