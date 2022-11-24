@@ -1,4 +1,5 @@
 import { Col, Container, Row } from 'react-bootstrap';
+import Form from '../Form/Form';
 import SocialNetworks from '../SocialNetworks/SocialNetworks';
 import './contactame.scss';
 
@@ -15,7 +16,9 @@ function Contactame() {
           </h3>
           <SocialNetworks />
         </Col>
-        <Col></Col>
+        <Col>
+          <Form />
+        </Col>
       </Row>
     </Container>
   );

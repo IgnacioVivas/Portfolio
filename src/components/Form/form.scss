@@ -1,0 +1,72 @@
+#container-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  input {
+    width: 100%;
+    background-color: #ffffff;
+    border-color: #282828;
+    border-width: 1px;
+    border-style: solid;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: #1d1d1d;
+    font-family: Roboto Slab;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0px;
+    text-transform: none;
+    padding-top: 16px;
+    padding-right: 22px;
+    padding-bottom: 19px;
+    padding-left: 22px;
+    margin-top: 0px;
+    margin-bottom: 4px;
+  }
+  textarea {
+    width: 100%;
+    background-color: #ffffff;
+    border-color: #282828;
+    border-width: 1px;
+    border-style: solid;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px px;
+    border-bottom-left-radius: 0px;
+    color: #1d1d1d;
+    font-family: Roboto Slab;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0px;
+    text-transform: none;
+    padding-top: 16px;
+    padding-right: 22px;
+    padding-bottom: 19px;
+    padding-left: 22px;
+    margin-top: 0px;
+    margin-bottom: 4px;
+  }
+  button {
+    width: 285px;
+    background-color: #282828;
+    border-width: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: #ffffff;
+    font-family: Roboto Slab;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0px;
+    text-transform: none;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 34px;
+  }
+}
