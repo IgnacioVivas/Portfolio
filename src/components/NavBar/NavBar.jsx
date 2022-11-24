@@ -1,10 +1,22 @@
 import { Link, animateScroll as scroll } from 'react-scroll';
 import './navBar.scss';
+import { useState, useEffect } from 'react';
 import SocialNetworks from '../SocialNetworks/SocialNetworks';
 
 function NavBar() {
+  const [addClass, setAddClass] = useState(false);
+
+  window.onscroll = function () {
+    if (window.scrollY > 700) setAddClass(true);
+    else setAddClass(false);
+  };
+
+  // useEffect(() => {
+  //   console.log('Vertical: ' + window.scrollY);
+  // }, [window.scrollY]);
+
   return (
-    <div className='navBar-container'>
+    <div className='navBar-container' id={addClass && 'down'}>
       <div className='navBar-wrapper'>
         <div className='icon-container'>
           <h5>
