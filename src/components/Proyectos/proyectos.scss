@@ -22,10 +22,17 @@
     }
   }
   #row-proyectos {
-    justify-content: space-evenly;
-    align-items: center;
     img {
       width: 400px;
+    }
+    .name-proyectos {
+      margin-top: 30px;
+      font-size: 17px;
+      line-height: 28px;
+      font-style: normal;
+      font-weight: 300;
+      letter-spacing: 0px;
+      text-transform: none;
     }
   }
 }
