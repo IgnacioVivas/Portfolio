@@ -8,12 +8,10 @@ function SobreMi() {
       <Row>
         <Col>
           <p id='sobreMi'>
-            <span id='span-sobreMi'>Lorem ipsum dolor sit amet</span> consectetur adipisicing elit.
-            Sunt animi dicta error cupiditate placeat distinctio excepturi in minima nemo iusto,
-            quia, aut doloribus quam totam laborum modi debitis. Fuga, fugit. Lorem ipsum dolor sit
-            amet consectetur adipisicing elit. Inventore, eveniet? Maxime doloribus eum debitis odio
-            corporis temporibus dolor aut. Quod fugit, in nostrum iste quam quae animi molestiae
-            sunt beatae!
+            <span id='span-sobreMi'>Soy una persona curiosa</span> apasionada por la ciencia, las
+            matemáticas y la tecnología. Soy un buscador habitual de conocimiento al que le encanta
+            saber cómo funcionan las cosas. En mi tiempo libre me gusta tocar el trombone, jugar
+            videojuegos y leer.
           </p>
         </Col>
         <Col id='container-progressBar'>

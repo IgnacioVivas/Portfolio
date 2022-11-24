@@ -4,6 +4,10 @@
   margin: 0px;
   padding: 0px;
 }
+::selection {
+  color: white;
+  background: #40cfff;
+}
 
 body {
   margin: 0;
