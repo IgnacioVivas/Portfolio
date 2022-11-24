@@ -16,7 +16,7 @@ function NavBar() {
   // }, [window.scrollY]);
 
   return (
-    <div className='navBar-container' id={addClass && 'down'}>
+    <div className='navBar-container' id={addClass ? 'down' : null}>
       <div className='navBar-wrapper'>
         <div className='icon-container'>
           <span>

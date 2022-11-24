@@ -24,8 +24,16 @@
     }
   }
   #row-proyectos {
-    img {
-      width: 400px;
+    .box-img {
+      transition: 1s;
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+    .box-img:hover {
+      transform: scale(1.1);
+      z-index: 10;
     }
     .name-proyectos {
       margin-top: 30px;

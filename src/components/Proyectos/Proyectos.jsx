@@ -10,15 +10,21 @@ function Proyectos() {
       </Row>
       <Row id='row-proyectos'>
         <Col>
-          <img src='https://tse1.mm.bing.net/th?id=OIP.iLOuylTm8lnnx25Mjj49QwHaGX&pid=Api' alt='' />
+          <div className='box-img'>
+            <img src='https://tse1.mm.bing.net/th?id=OIP.iLOuylTm8lnnx25Mjj49QwHaGX&pid=Api' />
+          </div>
           <p className='name-proyectos'>Showreel de Vimeo FX</p>
         </Col>
         <Col>
-          <img src='https://tse1.mm.bing.net/th?id=OIP.iLOuylTm8lnnx25Mjj49QwHaGX&pid=Api' alt='' />
+          <div className='box-img'>
+            <img src='https://tse1.mm.bing.net/th?id=OIP.iLOuylTm8lnnx25Mjj49QwHaGX&pid=Api' />
+          </div>
           <p className='name-proyectos'>Showreel de Vimeo FX</p>
         </Col>
         <Col>
-          <img src='https://tse1.mm.bing.net/th?id=OIP.iLOuylTm8lnnx25Mjj49QwHaGX&pid=Api' alt='' />
+          <div className='box-img'>
+            <img src='https://tse1.mm.bing.net/th?id=OIP.iLOuylTm8lnnx25Mjj49QwHaGX&pid=Api' />
+          </div>
           <p className='name-proyectos'>Showreel de Vimeo FX</p>
         </Col>
       </Row>
