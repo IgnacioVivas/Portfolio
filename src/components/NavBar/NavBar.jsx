@@ -7,7 +7,7 @@ function NavBar() {
   const [addClass, setAddClass] = useState(false);
 
   window.onscroll = function () {
-    if (window.scrollY > 700) setAddClass(true);
+    if (window.scrollY > 690) setAddClass(true);
     else setAddClass(false);
   };
 
@@ -19,9 +19,10 @@ function NavBar() {
     <div className='navBar-container' id={addClass && 'down'}>
       <div className='navBar-wrapper'>
         <div className='icon-container'>
-          <h5>
-            IV<span id='point'>.</span>
-          </h5>
+          <span>
+            IV
+            <span id='point'>.</span>
+          </span>
         </div>
         <ul className='nav-bar'>
           <li>

@@ -24,8 +24,13 @@
     padding-left: 22px;
     margin-top: 0px;
     margin-bottom: 4px;
+    outline: none;
+    &:focus {
+      background-color: #f9f9f9;
+    }
   }
   textarea {
+    outline: none;
     width: 100%;
     background-color: #ffffff;
     border-color: #282828;
@@ -48,6 +53,9 @@
     padding-left: 22px;
     margin-top: 0px;
     margin-bottom: 4px;
+    &:focus {
+      background-color: #f9f9f9;
+    }
   }
   button {
     width: 285px;
@@ -67,5 +75,8 @@
     height: 60px;
     line-height: 60px;
     padding: 0 34px;
+    &:hover {
+      background-color: #40cfff;
+    }
   }
 }

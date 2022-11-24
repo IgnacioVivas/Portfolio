@@ -10,7 +10,7 @@
     justify-content: space-between;
     align-items: center;
     .icon-container {
-      h5 {
+      span {
         text-transform: uppercase;
         font-weight: 300;
         font-size: 50px;
@@ -18,6 +18,7 @@
           color: #40cfff;
           font-size: 80px;
           font-weight: 400;
+          line-height: 0;
         }
       }
     }
@@ -35,29 +36,22 @@
         a {
           text-decoration: none;
           color: #1d1d1d;
+          cursor: pointer;
           &:hover {
             color: #40cfff;
           }
-          // &:visited {
-          //   color: yellow;
-          //   font-size: 50px;
-          //   background-color: #1d1d1d;
-          //   padding: 10px;
-          // }
+        }
+        .active {
+          background-color: #40cfff;
+          padding: 8px 16px;
+          vertical-align: middle;
+          border-radius: 2px;
+          color: white;
+          &:hover {
+            color: white;
+          }
         }
       }
-      // .active {
-      //   background-color: #40cfff;
-      //   padding: 8px 16px;
-      //   vertical-align: middle;
-      //   border-radius: 2px;
-      //   a {
-      //     color: white;
-      //     &:hover {
-      //       color: white;
-      //     }
-      //   }
-      // }
     }
   }
 }

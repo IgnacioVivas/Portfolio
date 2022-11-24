@@ -1,6 +1,7 @@
 import './sobreMi.scss';
 import { Col, Container, Row } from 'react-bootstrap';
 import ProgressBar from '../ProgressBar/ProgressBar';
+import SobreMiDos from '../SobreMiDos/SobreMiDos';
 
 function SobreMi() {
   return (
@@ -25,6 +26,7 @@ function SobreMi() {
           <ProgressBar bgcolor='#40cfff' progress='65' technology={'Sequelize'} />
         </Col>
       </Row>
+      <SobreMiDos />
     </Container>
   );
 }
