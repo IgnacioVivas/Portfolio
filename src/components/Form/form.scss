@@ -79,4 +79,14 @@
       background-color: #40cfff;
     }
   }
+  input.danger {
+    border: 2px solid red;
+  }
+  textarea.danger {
+    border: 2px solid red;
+  }
+  p.danger {
+    color: red;
+    font-size: 12px;
+  }
 }
