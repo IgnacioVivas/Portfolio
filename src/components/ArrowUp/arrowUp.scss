@@ -1,0 +1,43 @@
+#container-arrowUp {
+  color: #cdcdcd;
+  height: auto;
+  position: fixed;
+  bottom: 65px;
+  margin: 0;
+  z-index: 10000;
+  opacity: 1;
+  visibility: visible;
+  right: 25px;
+  text-decoration: none;
+  transition: all 0.8s ease;
+  #box-arrowUp {
+    display: flex;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    -o-border-radius: 52px;
+    -moz-border-radius: 52px;
+    -webkit-border-radius: 52px;
+    border-radius: 52px;
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    border: 2px solid #e8e8e8;
+    background: 0 0;
+    color: #b0b0b0;
+    &:hover {
+      background-color: #40cfff;
+      border: 2px solid #40cfff;
+      color: white;
+    }
+    #arrow {
+      font-size: 22px;
+      line-height: 52px;
+      font-weight: 600;
+    }
+  }
+}
+.active-arrow {
+  display: none;
+}
