@@ -9,19 +9,19 @@ function Proyectos() {
         <h3>Aquí hay una selección de mis mejores proyectos.</h3>
       </Row>
       <Row id='row-proyectos'>
-        <Col>
+        <Col xs={12} md={6} lg={4}>
           <div className='box-img'>
             <img src='https://tse1.mm.bing.net/th?id=OIP.iLOuylTm8lnnx25Mjj49QwHaGX&pid=Api' />
           </div>
           <p className='name-proyectos'>Showreel de Vimeo FX</p>
         </Col>
-        <Col>
+        <Col xs={12} md={6} lg={4}>
           <div className='box-img'>
             <img src='https://tse1.mm.bing.net/th?id=OIP.iLOuylTm8lnnx25Mjj49QwHaGX&pid=Api' />
           </div>
           <p className='name-proyectos'>Showreel de Vimeo FX</p>
         </Col>
-        <Col>
+        <Col xs={12} md={6} lg={4}>
           <div className='box-img'>
             <img src='https://tse1.mm.bing.net/th?id=OIP.iLOuylTm8lnnx25Mjj49QwHaGX&pid=Api' />
           </div>

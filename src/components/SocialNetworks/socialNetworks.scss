@@ -25,3 +25,9 @@
     }
   }
 }
+
+@media all and (max-width: 968px) {
+  #container-socialNetworks {
+    display: none;
+  }
+}

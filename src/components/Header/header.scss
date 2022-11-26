@@ -6,3 +6,9 @@
   background-size: contain;
   background-position: right;
 }
+
+@media all and (max-width: 576px) {
+  .container-header {
+    height: 55vh;
+  }
+}

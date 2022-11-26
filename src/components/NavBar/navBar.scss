@@ -22,6 +22,9 @@
         }
       }
     }
+    #hamburger-container {
+      display: none;
+    }
     .nav-bar {
       display: flex;
       align-items: center;
@@ -58,12 +61,77 @@
 
 #down {
   position: fixed;
-
   background-color: #fff;
   box-shadow: 0 1px 3px rgb(0 0 0 / 11%);
   padding: 0;
   transition: all 0.1s ease;
   .nav-wrapper {
     padding: 0;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .navBar-container {
+    position: relative;
+    padding-top: 0px;
+    background-color: white;
+    .navBar-wrapper {
+      width: 88%;
+      flex-direction: row-reverse;
+      .icon-container {
+        margin: auto;
+      }
+      #hamburger-container {
+        display: block;
+        .hamburger,
+        .close {
+          font-size: 30px;
+          color: #40cfff;
+        }
+      }
+      .nav-bar {
+        position: absolute;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        top: 10vh;
+        width: 100%;
+        height: 90vh;
+        background-color: white;
+        padding-left: 0;
+        left: 0;
+        padding: 0 90px;
+        gap: 15px;
+        li {
+          // margin-left: 6%;
+          border-bottom: 1px solid #80808036;
+          width: 100%;
+          padding-bottom: 12px;
+        }
+      }
+      .active {
+        background-color: unset !important;
+        padding: unset !important;
+        vertical-align: unset !important;
+        border-radius: unset !important;
+        color: unset !important;
+        &:hover {
+          color: unset !important;
+        }
+      }
+    }
+  }
+  #down {
+    position: relative;
+  }
+}
+
+@media all and (max-width: 576px) {
+  .navBar-container {
+    .navBar-wrapper {
+      .nav-bar {
+        height: 45vh;
+      }
+    }
   }
 }

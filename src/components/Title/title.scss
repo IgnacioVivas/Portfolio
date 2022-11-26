@@ -24,3 +24,35 @@
     }
   }
 }
+
+@media all and (max-width: 768px) {
+  #container-title {
+    #row-title {
+      #main-title {
+        font-size: 55px;
+        line-height: 66px;
+        padding-right: 224px;
+      }
+      #secondary-title {
+        font-size: 18px;
+        line-height: 0px;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 576px) {
+  #container-title {
+    height: 45vh;
+    #row-title {
+      width: 100%;
+      #main-title {
+        font-size: 32px;
+        line-height: 32px;
+      }
+      #secondary-title {
+        display: none;
+      }
+    }
+  }
+}
