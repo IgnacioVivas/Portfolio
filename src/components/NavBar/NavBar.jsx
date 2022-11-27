@@ -82,7 +82,9 @@ function NavBar() {
                 Contactame
               </Link>
             </li>
-            <SocialNetworks />
+            <div id='nav-socialNetworks'>
+              <SocialNetworks />
+            </div>
           </ul>
         )}
       </div>

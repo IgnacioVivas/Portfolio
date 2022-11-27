@@ -7,7 +7,7 @@ function SobreMi() {
   return (
     <Container className='container-sobreMi' id='sobreMi'>
       <Row>
-        <Col lg={12} xl={6}>
+        <Col lg={6} xl={6}>
           <p id='sobreMi'>
             <span id='span-sobreMi'>Soy una persona curiosa</span> apasionada por la ciencia, las
             matemáticas y la tecnología. Soy un buscador habitual de conocimiento al que le encanta
@@ -15,7 +15,7 @@ function SobreMi() {
             videojuegos y leer.
           </p>
         </Col>
-        <Col id='container-progressBar' lg={12} xl={6}>
+        <Col id='container-progressBar' lg={6} xl={6}>
           <ProgressBar bgcolor='#40cfff' progress='80' technology={'Scss'} />
           <ProgressBar bgcolor='#40cfff' progress='60' technology={'Styled Components'} />
           <ProgressBar bgcolor='#40cfff' progress='80' technology={'JavaScript'} />

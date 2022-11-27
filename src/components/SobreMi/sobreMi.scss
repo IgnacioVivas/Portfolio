@@ -19,3 +19,35 @@
     justify-content: space-between;
   }
 }
+
+@media all and (max-width: 768px) {
+  .container-sobreMi {
+    padding: 70px 55px 50px 55px;
+    #sobreMi {
+      font-size: 22px;
+      line-height: 37px;
+      margin-bottom: 60px;
+    }
+  }
+}
+
+@media all and (max-width: 576px) {
+  .container-sobreMi {
+    #sobreMi {
+      font-size: 17px;
+      line-height: 29px;
+      margin-bottom: 60px;
+    }
+  }
+}
+
+@media all and (max-width: 321px) {
+  .container-sobreMi {
+    padding: 70px 40px 50px 40px;
+    #sobreMi {
+      font-size: 17px;
+      line-height: 29px;
+      margin-bottom: 60px;
+    }
+  }
+}

@@ -46,3 +46,41 @@
     }
   }
 }
+
+@media all and (max-width: 768px) {
+  .container-proyectos {
+    padding: 40px 55px 75px 55px;
+    #row-proyectos-title {
+      h2 {
+        font-size: 54px;
+        line-height: 56px;
+      }
+      h3 {
+        font-size: 22px;
+        line-height: 37px;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 576px) {
+  .container-proyectos {
+    padding: 0px 55px 50px 55px;
+    #row-proyectos-title {
+      h2 {
+        font-size: 28px;
+        line-height: 38px;
+      }
+      h3 {
+        font-size: 17px;
+        line-height: 29px;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 321px) {
+  .container-proyectos {
+    padding: 50px 40px 75px 40px;
+  }
+}

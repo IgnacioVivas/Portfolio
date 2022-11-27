@@ -28,3 +28,46 @@
     }
   }
 }
+
+@media all and (max-width: 768px) {
+  .container-contactame {
+    padding: 0px 55px 150px 55px;
+    #row-contactame {
+      #col-contactame {
+        #title-contactame {
+          font-size: 54px;
+          line-height: 56px;
+        }
+        #text-contactame {
+          font-size: 22px;
+          line-height: 37px;
+          margin-bottom: 25px;
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 576px) {
+  .container-contactame {
+    padding: 0px 55px 100px 55px;
+    #row-contactame {
+      #col-contactame {
+        #title-contactame {
+          font-size: 28px;
+          line-height: 38px;
+        }
+        #text-contactame {
+          font-size: 17px;
+          line-height: 29px;
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 321px) {
+  .container-contactame {
+    padding: 75px 40px 150px 40px;
+  }
+}
