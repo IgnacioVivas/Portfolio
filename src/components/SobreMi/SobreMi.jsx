@@ -16,14 +16,14 @@ function SobreMi() {
           </p>
         </Col>
         <Col id='container-progressBar' lg={6} xl={6}>
-          <ProgressBar bgcolor='#40cfff' progress='80' technology={'Scss'} />
-          <ProgressBar bgcolor='#40cfff' progress='60' technology={'Styled Components'} />
-          <ProgressBar bgcolor='#40cfff' progress='80' technology={'JavaScript'} />
           <ProgressBar bgcolor='#40cfff' progress='80' technology={'React Js'} />
+          <ProgressBar bgcolor='#40cfff' progress='80' technology={'JavaScript'} />
           <ProgressBar bgcolor='#40cfff' progress='70' technology={'Node Js'} />
           <ProgressBar bgcolor='#40cfff' progress='70' technology={'Express Js'} />
           <ProgressBar bgcolor='#40cfff' progress='60' technology={'PostgreSql'} />
           <ProgressBar bgcolor='#40cfff' progress='65' technology={'Sequelize'} />
+          <ProgressBar bgcolor='#40cfff' progress='80' technology={'Scss'} />
+          <ProgressBar bgcolor='#40cfff' progress='60' technology={'Styled Components'} />
         </Col>
       </Row>
       <SobreMiDos />
