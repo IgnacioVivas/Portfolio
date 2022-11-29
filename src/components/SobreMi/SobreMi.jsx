@@ -7,11 +7,11 @@ function SobreMi() {
   return (
     <Container className='container-sobreMi' id='sobreMi'>
       <Row>
-        <Col lg={6} xl={6}>
+        <Col lg={6} xl={6} className='d-flex align-items-center'>
           <p id='sobreMi'>
-            <span id='span-sobreMi'>Soy una persona curiosa</span> apasionada por la ciencia, las
-            matemáticas y la tecnología. Soy un buscador habitual de conocimiento al que le encanta
-            saber cómo funcionan las cosas. En mi tiempo libre me gusta tocar el trombone, jugar
+            <span id='span-sobreMi'>Soy una persona curiosa</span> apasionado por la tecnología, la
+            música y los libros. Soy un buscador habitual de conocimiento al que le encanta saber
+            cómo funcionan las cosas. En mi tiempo libre me gusta tocar el trombone, jugar
             videojuegos y leer.
           </p>
         </Col>
