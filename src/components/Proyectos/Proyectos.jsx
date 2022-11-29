@@ -1,5 +1,8 @@
 import './proyectos.scss';
 import { Container, Row, Col } from 'react-bootstrap';
+import page from '../../image/mypage.png';
+import riding from '../../image/riding-school.png';
+import ecommerce from '../../image/alerta-bihotza.png';
 
 function Proyectos() {
   return (
@@ -11,19 +14,19 @@ function Proyectos() {
       <Row id='row-proyectos'>
         <Col xs={12} md={6} lg={4}>
           <div className='box-img'>
-            <img src='https://tse1.mm.bing.net/th?id=OIP.iLOuylTm8lnnx25Mjj49QwHaGX&pid=Api' />
+            <img src={page} />
           </div>
           <p className='name-proyectos'>Showreel de Vimeo FX</p>
         </Col>
         <Col xs={12} md={6} lg={4}>
           <div className='box-img'>
-            <img src='https://tse1.mm.bing.net/th?id=OIP.iLOuylTm8lnnx25Mjj49QwHaGX&pid=Api' />
+            <img src={ecommerce} />
           </div>
           <p className='name-proyectos'>Showreel de Vimeo FX</p>
         </Col>
         <Col xs={12} md={6} lg={4}>
           <div className='box-img'>
-            <img src='https://tse1.mm.bing.net/th?id=OIP.iLOuylTm8lnnx25Mjj49QwHaGX&pid=Api' />
+            <img src={riding} />
           </div>
           <p className='name-proyectos'>Showreel de Vimeo FX</p>
         </Col>
