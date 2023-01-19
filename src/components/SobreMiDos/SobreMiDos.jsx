@@ -24,8 +24,8 @@ function SobreMiDos() {
       <Col md={6} lg={3} className='sobreMi-dos'>
         <i className='ri-open-arm-line icon'></i>
         <p className='text-sobreMi'>
-          Estoy buscando para aprender nuevas tecnologías. Mis intereses están en el desarrollo web,
-          bases de datos y aplicaciones móviles.
+          Estoy buscando experiencias para aprender nuevas tecnologías. Mis intereses están en el
+          desarrollo web, bases de datos y aplicaciones móviles.
         </p>
       </Col>
     </Row>

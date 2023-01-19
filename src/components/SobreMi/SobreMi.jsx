@@ -9,9 +9,9 @@ function SobreMi() {
       <Row>
         <Col lg={6} xl={6} className='d-flex align-items-center'>
           <p id='sobreMi'>
-            <span id='span-sobreMi'>Soy una persona curiosa</span> apasionado por la tecnología, la
+            <span id='span-sobreMi'>Soy una persona curiosa,</span> apasionada por la tecnología, la
             música y los libros. Soy un buscador habitual de conocimiento al que le encanta saber
-            cómo funcionan las cosas. En mi tiempo libre me gusta tocar el trombone, jugar
+            cómo funcionan las cosas. En mi tiempo libre me gusta tocar el trombon, jugar
             videojuegos y leer.
           </p>
         </Col>
