@@ -52,7 +52,7 @@ function Form() {
         <input
           className={errors.name && 'danger'}
           type='text'
-          placeholder='Tu nombre completo aquí'
+          placeholder='Nombre completo'
           onChange={handleChange}
           name='name'
           value={inputValue.name}
@@ -63,7 +63,7 @@ function Form() {
         <input
           className={errors.email && 'danger'}
           type='text'
-          placeholder='Su dirección de correo electrónico'
+          placeholder='Dirección de correo electrónico'
           onChange={handleChange}
           name='email'
           value={inputValue.email}
