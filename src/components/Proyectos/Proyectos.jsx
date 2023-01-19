@@ -12,23 +12,23 @@ function Proyectos() {
         <h3>Aquí hay una selección de mis mejores proyectos.</h3>
       </Row>
       <Row id='row-proyectos'>
-        <Col xs={12} md={6} lg={4}>
+        {/* <Col xs={12} md={6} lg={4}>
           <div className='box-img'>
             <img src={page} />
           </div>
           <p className='name-proyectos'>Showreel de Vimeo FX</p>
-        </Col>
+        </Col> */}
         <Col xs={12} md={6} lg={4}>
           <div className='box-img'>
             <img src={ecommerce} />
           </div>
-          <p className='name-proyectos'>Showreel de Vimeo FX</p>
+          <p className='name-proyectos'>Alerta Bihotza</p>
         </Col>
         <Col xs={12} md={6} lg={4}>
           <div className='box-img'>
             <img src={riding} />
           </div>
-          <p className='name-proyectos'>Showreel de Vimeo FX</p>
+          <p className='name-proyectos'>Riding School</p>
         </Col>
       </Row>
     </Container>

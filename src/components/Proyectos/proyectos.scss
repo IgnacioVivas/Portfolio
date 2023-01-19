@@ -27,8 +27,26 @@
     .box-img {
       transition: 1s;
       width: 100%;
+      overflow: auto;
+      height: 550px;
+      &::-webkit-scrollbar {
+        width: 6px;
+      }
+      /* Track */
+      &::-webkit-scrollbar-track {
+        background-color: white;
+      }
+      /* Handle */
+      &::-webkit-scrollbar-thumb {
+        background-color: rgb(192, 191, 191);
+      }
+      /* Handle on hover */
+      // &::-webkit-scrollbar-thumb:hover {
+      //   background-color: #40cfff;
+      // }
       img {
         width: 100%;
+        // max-width: 100%;
       }
     }
     .box-img:hover {
@@ -75,6 +93,9 @@
         font-size: 17px;
         line-height: 29px;
       }
+    }
+    #row-proyectos {
+      gap: 35px;
     }
   }
 }

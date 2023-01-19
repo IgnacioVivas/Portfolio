@@ -10,9 +10,9 @@ function Contactame() {
         <Col id='col-contactame'>
           <h2 id='title-contactame'>Contactame</h2>
           <h3 id='text-contactame'>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus possimus quo ut
-            commodi consequuntur officiis quos corrupti praesentium neque illo vitae placeat,
-            excepturi nostrum pariatur consectetur? Obcaecati similique et numquam?
+            Gracias por visitar mi portafolio. Si estás interesado en contratar mis servicios de
+            desarrollo web o simplemente quieres saber más sobre mí, no dudes en dejarme un mensaje.
+            ¡Estoy dispuesto a trabajar contigo y ayudarte a llevar a cabo tus proyectos!
           </h3>
           <SocialNetworks />
         </Col>
