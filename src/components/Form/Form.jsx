@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import sendEmail from '../../firebase/sendEmail';
 import './form.scss';
 
 function Form() {
@@ -8,7 +9,6 @@ function Form() {
     texto: '',
   });
   const [errors, setErrors] = useState({});
-
   const validate = (inputValue) => {
     let errors = {};
     if (!inputValue.name) errors.name = 'Este campo no puede estar vacío';
@@ -21,20 +21,15 @@ function Form() {
     setInputValue({
       ...inputValue,
       name: '',
-      temperament: '',
-      weightImperial: '',
-      weightMetric: '',
-      heightImperial: '',
-      heightMetric: '',
-      lifeExpectancy: '',
-      origin: '',
+      email: '',
+      texto: '',
     });
   };
 
   const handleChange = (e) => {
     setInputValue({ ...inputValue, [e.target.name]: e.target.value });
   };
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     const formValues = {
       ...inputValue,
@@ -45,6 +40,7 @@ function Form() {
     if (Object.keys(validate(formValues)).length === 0) {
       resetForm();
     }
+    sendEmail(inputValue.email, inputValue.texto);
   };
   return (
     <form id='container-form' onSubmit={handleSubmit}>
@@ -83,7 +79,7 @@ function Form() {
         ></textarea>
         {errors.texto && <p className='danger'>{errors.texto}</p>}
       </div>
-      <button>Enviar mensaje</button>
+      <button type='submit'>Enviar mensaje</button>
     </form>
   );
 }

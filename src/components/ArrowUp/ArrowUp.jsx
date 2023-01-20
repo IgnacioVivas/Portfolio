@@ -13,7 +13,7 @@ function ArrowUp() {
       duration={500}
     >
       <div id='box-arrowUp'>
-        <i class='ri-arrow-up-line' id='arrow'></i>
+        <i className='ri-arrow-up-line' id='arrow'></i>
       </div>
     </Link>
   );
