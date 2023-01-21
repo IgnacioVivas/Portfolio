@@ -89,6 +89,20 @@
   }
 }
 
+@media all and (max-width: 400px) {
+  #container-title {
+    height: 45vh;
+    #row-title {
+      width: 100%;
+      #main-title {
+        font-size: 27px;
+        line-height: 30px;
+        padding-right: 140px;
+      }
+    }
+  }
+}
+
 @media all and (max-width: 376px) {
   #container-title {
     height: 45vh;

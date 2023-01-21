@@ -1,29 +1,16 @@
 import { db } from './firebase';
 import { collection, addDoc } from 'firebase/firestore';
 
-export default async function sendEmail(email, texto) {
+export default async function sendEmail(email, texto, name) {
   const collectionRef = collection(db, 'mail');
   const emailContent = {
-    to: email,
+    to: 'ignacab@hotmail.com',
+    from: email,
     message: {
-      subject: 'Hello from Firebase!',
+      subject: 'Ignacio, te contactan por trabajo o por spam!',
       text: texto,
-      html: `<p>${texto}</p>`,
+      html: `Remitente: ${email} <br/> ${name}: <br/> <p>${texto}</p>`,
     },
   };
   return await addDoc(collectionRef, emailContent);
 }
-
-// import { send } from 'firebase/functions';
-// export default async function sendEmail(email, texto) {
-//   const emailContent = {
-//     to: 'ignacab@hotmail.com',
-//     from: email,
-//     message: {
-//       subject: 'Hello from Firebase!',
-//       text: texto,
-//       html: `<p>${texto}</p>`,
-//     },
-//   };
-//   return await send(emailContent);
-// }

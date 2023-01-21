@@ -19,20 +19,28 @@ function Proyectos() {
           </div>
           <p className='name-proyectos'>Showreel de Vimeo FX</p>
         </Col> */}
+
         <Col xs={12} md={6} lg={4}>
-          <a href='https://ignaciovivas.github.io/Alerta-Bihotza/'>
-            <div className='box-img'>
-              <img src={ecommerce} />
-            </div>
-            <p className='name-proyectos'>Alerta Bihotza</p>
-          </a>
-        </Col>
-        <Col xs={12} md={6} lg={4}>
-          <a href='https://riding-school.netlify.app/' target='_blank'>
+          <a
+            href='https://riding-school.netlify.app/'
+            target='_blank'
+            style={{ textDecoration: 'none', color: 'black' }}
+          >
             <div className='box-img'>
               <img src={riding} />
             </div>
             <p className='name-proyectos'>Riding School</p>
+          </a>
+        </Col>
+        <Col xs={12} md={6} lg={4}>
+          <a
+            href='https://ignaciovivas.github.io/Alerta-Bihotza/'
+            style={{ textDecoration: 'none', color: 'black' }}
+          >
+            <div className='box-img'>
+              <img src={ecommerce} />
+            </div>
+            <p className='name-proyectos'>Alerta Bihotza</p>
           </a>
         </Col>
       </Row>

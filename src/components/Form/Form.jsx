@@ -1,14 +1,17 @@
 import { useState } from 'react';
 import sendEmail from '../../firebase/sendEmail';
 import './form.scss';
+import { success, error } from '../../alerts/alerts';
 
 function Form() {
+  const [sendEmailError, setSendEmailError] = useState(null);
   const [inputValue, setInputValue] = useState({
     name: '',
     email: '',
     texto: '',
   });
   const [errors, setErrors] = useState({});
+
   const validate = (inputValue) => {
     let errors = {};
     if (!inputValue.name) errors.name = 'Este campo no puede estar vacío';
@@ -29,6 +32,7 @@ function Form() {
   const handleChange = (e) => {
     setInputValue({ ...inputValue, [e.target.name]: e.target.value });
   };
+
   const handleSubmit = (e) => {
     e.preventDefault();
     const formValues = {
@@ -38,9 +42,13 @@ function Form() {
     setErrors(validate(formValues));
 
     if (Object.keys(validate(formValues)).length === 0) {
-      resetForm();
+      sendEmail(inputValue.email, inputValue.texto, inputValue.name)
+        .then(() => success(), resetForm())
+        .catch((err) => {
+          setSendEmailError(err);
+          error();
+        });
     }
-    sendEmail(inputValue.email, inputValue.texto);
   };
   return (
     <form id='container-form' onSubmit={handleSubmit}>
