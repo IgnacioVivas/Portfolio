@@ -8,7 +8,7 @@ function Title() {
         <h1 id='main-title'>
           Hola, soy Ignacio, <br /> desarrollador Front End
         </h1>
-        <h3 id='secondary-title'>Hola, soy Ignacio, desarrollador Front End</h3>
+        <h3 id='secondary-title'>Apasionado por la creación de interfaces impactantes.</h3>
       </Row>
     </Container>
   );

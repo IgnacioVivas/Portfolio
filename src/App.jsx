@@ -6,6 +6,7 @@ import Proyectos from './components/Proyectos/Proyectos';
 import Contactame from './components/Contactame/Contactame';
 import Footer from './components/Footer/Footer';
 import ArrowUp from './components/ArrowUp/ArrowUp';
+import Technologies from './components/Technologies/Technologies';
 
 function App() {
   return (

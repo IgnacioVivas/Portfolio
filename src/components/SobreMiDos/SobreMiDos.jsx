@@ -19,7 +19,10 @@ function SobreMiDos() {
       </Col>
       <Col md={6} lg={3} className='sobreMi-dos'>
         <i className='ri-timer-flash-line icon'></i>
-        <p className='text-sobreMi'>Nunca llego tarde y siempre soy muy puntual con mis plazos.</p>
+        <p className='text-sobreMi'>
+          Destaco por mi compromiso con la entrega de proyectos, asegurando una gestión eficiente
+          del tiempo para cumplir con los plazos establecidos.
+        </p>
       </Col>
       <Col md={6} lg={3} className='sobreMi-dos'>
         <i className='ri-open-arm-line icon'></i>

@@ -27,7 +27,8 @@ function Header() {
     }
   }, [screenWidth]);
 
-  console.log(screenWidth);
+  // console.log(screenWidth);
+
   return (
     <div className='container-header' id='inicio' style={{ backgroundImage: `url(${myPhoto})` }}>
       <NavBar />

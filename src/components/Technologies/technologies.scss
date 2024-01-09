@@ -1,0 +1,24 @@
+.container-technologies {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  .card-technologies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+    .technologies {
+      font-size: 60px;
+      color: #40cfff;
+    }
+    .text-technologies {
+      font-weight: 500;
+      font-size: 14px;
+    }
+    #styled-components {
+      text-align: center;
+    }
+  }
+}
